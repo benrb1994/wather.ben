@@ -1,0 +1,30 @@
+﻿
+img.responsiv.logo {
+    max-width: 100%;
+}
+
+        @media screen and (max-width:500px) {
+            .nav, .section {
+                width: 100%;
+                height: auto;
+            }
+
+
+            @media only screen and (max-width:600px) {
+                .nav, .section {
+                    width: 100%;
+                    height: auto;
+                }
+
+                @media only screen and (max-width:800px) {
+                    .nav, .section {
+                        width: 100%;
+                        height: auto;
+                    }
+
+                    img.responsiv {
+                        max-width: 30%;
+                    }
+                }
+
+
